@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+header{
+    background-image: url(imagenes/estudiantes33.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+}
+.imagen{
+    padding: 10px;
+    justify-content: center;
+}
+
+.nav-menu{
+    background-color: rgba(5, 5, 221, 0.555);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    
+}
+.nav-menu li {
+    list-style: none;
+    margin: 0px 8px ;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+nav a:hover{
+   color:rgb(189, 18, 18);
+}
+.imagen{
+  width: 20%;
+  height: 30%;
+  border-radius: 25px;
+  justify-content: center;
+}
+/* seccion presentacion*/
+.presentacion{
+    width: 100%;
+    margin: 1rem;
+    display: block;
+    justify-content: space-between;
+}
+.presentacion h2{
+    margin-bottom: 1rem;
+    text-align: center;
+    
+
+}
+.explicacion p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.explicacion{
+    width: 100%;
+}
+.img-explicacion{
+    width: 100vw;
+    display: flex;
+    padding: 10px;
+}
+.nosotros{
+    text-align: center;
+    padding-top: 2rem;
+}
+.nosotros p{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.nosotros h3{
+    padding: 1rem;
+}
+/* seccion cursos*/
+
+.seccion-idioma{
+    padding: 2rem 0;
+}
+.titulo-seccion{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 42px;
+    font-weight: 600;
+}
+.subtitulo-seccion{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.seccion-idioma .fila{
+    display: flex;
+    justify-content: space-between;
+}
+.seccion-idioma .fila .columna{
+    width: 20%;
+    background-color: #edf4f6;
+    border-radius: 5px;
+}
+.seccion-idioma .fila .columna img{
+    width: 100%;
+}
+.seccion-idioma .fila .columna .idioma-contenido{
+    padding: 1.5rem;
+}
+.seccion-idioma .fila .columna h4{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.seccion-idioma .fila .columna p{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.seccion-idioma .fila .columna span{
+    text-align: center;
+    display: block;
+    color:#d82a4e;
+    font-weight: 700;
+}
+.formulario{
+    padding: 48px 0;
+    background-color: #d82a4e;
+}
+.formulario h3{
+    color: #edf4f6;
+    font-size: 30px;
+    text-align: left;
+    padding:24px
+}
+.formulario form{
+    background-color: #d82a4e;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    width: 50%;
+}
+/* seccion de reseñas*/
+.seccion-reseñas{
+    background: linear-gradient(#d82a4e, white);
+    background-repeat: no-repeat;
+    
+}
+.reseñas{
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 1rem;
+}
+.reseña{
+    background-color: #b91233b0;
+    border: solid 1px rgba(17, 122, 163, 0.925);
+    border-radius: 1rem;
+    padding: 1rem;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+.reseña img{
+    width: 100px;
+    display: inline;
+    vertical-align:middle;
+    margin-left: 2rem;
+}   
+/*seccion de pie de pagina*/
+footer{
+    background: linear-gradient( white, rgba(63, 54, 54, 0.836));
+    background-repeat: no-repeat;
+}
+
+footer h3{
+    color: #edf4f6;
+    font-size: 20px;
+    text-align: left;
+    padding:12px
+}
+.lista-redes li{
+    padding: 8px;
+    margin-left: 24px;
+    list-style: none;
+}
+footer p{
+    text-align: center;
+}
